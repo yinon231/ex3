@@ -10,7 +10,6 @@ a{
     color: #000000;
 }
 #wrapper{
-    
     width: 100%;
     margin:0 auto;
 }
@@ -22,7 +21,7 @@ nav{
     width: 100%;
     background-color: #f2e9e9;
 }
-nav>ul{
+ul{
     padding-left: 575px;
     padding-top: 52px;
     width: 291px;
@@ -53,6 +52,7 @@ li{
 #mix-frame{
     margin-top:91px;
     margin-left: 244px;
+    margin-bottom: 145px;
     width: 881px;
     height: 624px;
     display: flex;
@@ -80,12 +80,100 @@ li{
 #recs{
     width: 437px;
     height: 624px;
-    padding-left: 70px;
+    margin-left: 70px;
+    position: relative;
 }
-#recs section{
+#recs div{
+    position: absolute;
     background-color:#EBEF18;
 }
-#recs-flex-column{
-    display: flex;
-    flex-direction: column;
+#rec1{
+    top:44px;
+    height: 23px;
+    width: 75px;
+}
+#rec2{
+    height: 46px;
+    width: 136px;
+    top: 75px;
+}
+#rec3{
+    height: 404px;
+    width: 134px;
+    top: 132px;
+}
+#rec4{
+    height: 28px;
+    width: 88px;
+    top: 547px;
+}
+#rec5{
+    height: 26px;
+    width: 25px;
+    top: 582px;
+}
+#rec6{
+    height: 26px;
+    width: 25px;
+    left: 32px;
+    top: 582px;
+}
+#rec7{
+    height: 352px;
+    width: 246px;
+    left: 149px;
+    top: 44px;
+}
+#rec8{
+    height: 212px;
+    width: 123px;
+    left: 149px;
+    top: 412px;
+}
+#rec9{
+    height: 105px;
+    width: 55px;
+    left: 286px;
+    top: 412px;
+}
+#rec10{
+    height: 58px;
+    width: 110px;
+    left: 286px;
+    top: 524px;
+}
+#rec11{
+    height: 105px;
+    width: 55px;
+    left: 382px;
+    top: 412px;
+}
+#rec12{
+    height: 198px;
+    width: 28px;
+    left: 409px;
+    top: 198px;
+}
+#rec13{
+    height: 55px;
+    width: 28px;
+    left: 409px;
+    top: 132px;
+}
+#rec14{
+    height: 55px;
+    width: 28px;
+    left: 409px;
+    top: 66px;
+}
+#rec15{
+    height: 55px;
+    width: 28px;
+    left: 409px;
+    top: 0px;
+}
+footer{
+    height: 41px;
+    width: 100%;
+    background-color: #000000;
 }
