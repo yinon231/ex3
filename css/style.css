@@ -5,6 +5,9 @@
 header,main,footer,nav,section{
     display: block;
 }
+/* body{
+    overflow-x: hidden;
+} */
 a{
     text-decoration: none;
     color: #000000;
@@ -18,7 +21,6 @@ span{
 }
 nav{
     height: 123px;
-    width: 100%;
     background-color: #f2e9e9;
 }
 ul{
@@ -35,7 +37,7 @@ ul{
     color: #000000;
 
 }
-li>span{
+#index-dot{
     left: 595px;
     top: 34px;
     position: absolute;
@@ -44,7 +46,6 @@ li>span{
     height: 14px;
     border-radius: 50%;
 }
-
 li{
     list-style-type: none;
     margin-right: 17px;
@@ -176,4 +177,79 @@ footer{
     height: 41px;
     width: 100%;
     background-color: #000000;
+}
+
+#stairs-dot{
+    left: 686px;
+    top: 34px;    
+    position: absolute;
+    background-color:#F72828;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+#fixed-footer{
+    position: fixed;
+    bottom: 0;
+    height: 41px;
+    width: 100%;
+    background-color: #000000;
+}
+#frame{
+    display: flex;
+    flex-direction: row;
+}
+#left-recs{
+    margin-left: 151px;
+    margin-top: 119px;
+}
+#right-recs{
+    margin-left: 55px;
+    margin-top:287px;
+}
+#frame div{
+    height: 299px;
+    width: 457px;
+    background-color: #C4C4C4;
+    margin-bottom: 70px;
+}
+#aside-green{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEF18;
+    width: 169px;
+}
+#black-rec1{
+    margin-top: 119px;
+    height: 80px;
+    width: 80px;
+    background-color: #000000;
+}
+#white-rec{
+    margin-top: 48px;
+    margin-left:89px;
+    height: 80px;
+    width: 80px;
+    background-color:#FFFFFF;
+
+}
+#black-rec2{
+    margin-top: 289px;
+    margin-bottom: 544px;
+    height: 80px;
+    width: 80px;
+    background-color: #000000;
+}
+#yinon{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+    text-align: center;
+    color: #000000;
 }
