@@ -328,6 +328,9 @@ main>nav>ul{
     #body-long{
         height: 2024px;
     }
+    #black-rec3{
+        left: 87.53%;
+    }
     main{
         height: 71.68%;
         width: 100%;
@@ -340,20 +343,12 @@ main>nav>ul{
         background-color: #E5E5E5;
     }
     main>nav>ul{
+        width: 0;
         margin: 0;
         padding: 0;
         position: relative;
-        left: 35.52%;
+        left: 35.52%; 
         top: 42.85%;
-        width: 85.21%;
-        display: flex;
-        flex-direction: row;
-        font-family: 'Amiko';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 32px;    
-        color: #000000;
     }  
     #recs-js{
         width: 100%;
