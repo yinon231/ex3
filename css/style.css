@@ -275,7 +275,7 @@ footer{
 #black-rec3{
     position: relative;
     top: 21px;
-    margin-right:24px;
+    right:24px;
     width: 80px;
     height: 80px;
     background-color: #000000;
@@ -298,7 +298,6 @@ footer{
 #recs-js{
     width: 66.94%;
     height: 100%;
-
 }
 #blue-right{
     width: 7.22%;
@@ -307,6 +306,7 @@ footer{
 }
 main>nav{
     display: flex;
+    width: 25.83%;
     height: 100%;
     background-color: #E5E5E5;
 }
@@ -343,6 +343,7 @@ main>nav>ul{
         flex-direction: column;
     }
     main>nav{
+        width: 100%;
         display: flex;
         justify-content: center;
         height: 7.236%;
