@@ -61,14 +61,13 @@ ul{
     border-radius: 50%;
 }
 li{
-    
     list-style-type: none;
     margin-right: 17px;
 }
 #no-hover{
     pointer-events: none;
 }
-a:hover{
+ul a:hover{
     color:#F72828;
 }
 #mix-frame{
