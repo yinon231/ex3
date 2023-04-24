@@ -48,8 +48,7 @@ document.getElementById("black-rec3").onclick=function(){
                 }
             }
         }
-
-      });      
-         
-    };
-};
+              
+     });         
+  };
+}
